@@ -4,7 +4,8 @@
 class GitBranchDeleteMergedGo < Formula
   desc "Delete local branches that have been merged (includes \"Squash and merge\")"
   homepage "https://github.com/nekonenene/git-branch-delete-merged"
-  url "https://github.com/nekonenene/git-branch-delete-merged/archive/refs/tags/v1.3.5.tar.gz"
+  version "v1.3.5"
+  url "https://github.com/nekonenene/git-branch-delete-merged/archive/refs/tags/#{version}.tar.gz"
   sha256 "60a2f2d7307ce96c7249bf306c3ce0e526a51ecf156259593cdb599f4c9166a2"
   license "MIT"
 
@@ -12,7 +13,7 @@ class GitBranchDeleteMergedGo < Formula
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
-    system "go", "build", *std_go_args(ldflags: "-s -w")
+    system "go", "build", *std_go_args(ldflags: "-s -w -X github.com/nekonenene/git-branch-delete-merged/cmd.Version=#{version}")
   end
 
   test do
