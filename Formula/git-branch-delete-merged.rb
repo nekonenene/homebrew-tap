@@ -33,9 +33,12 @@ class GitBranchDeleteMerged < Formula
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
-    system "cargo", "install", *std_cargo_args if build.head?
-
-    bin.install Dir["output/*"]
+    if build.head?
+      system "cargo", "install", *std_cargo_args
+    else
+      system("mv git-branch-delete-merged* git-branch-delete-merged")
+      bin.install "git-branch-delete-merged"
+    end
   end
 
   test do
