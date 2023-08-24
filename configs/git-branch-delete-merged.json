@@ -1,7 +1,7 @@
 {
-  "input": {
+  "inputs": {
     "github_url": "https://github.com/nekonenene/git-branch-delete-merged-rs",
-    "version": "v1.0.1",
+    "version": "v1.0.2",
     "filename_template": "git-branch-delete-merged_{os}_{cpu}"
   }
 }
