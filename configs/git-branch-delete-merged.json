@@ -8,21 +8,21 @@
     "Darwin": {
       "x86_64": {
         "url": "https://github.com/nekonenene/git-branch-delete-merged-rs/releases/download/v1.0.2/git-branch-delete-merged_Darwin_x86_64",
-        "sha256": "4782dc42eac66a0a687a470479a27a7b21162deff5d8903d5bbbdcfae55d8e6a"
+        "sha256": "577dd3d66e6a285a2c8535b673778b23341736bd0e33d549198231b25414e306"
       },
       "arm64": {
         "url": "https://github.com/nekonenene/git-branch-delete-merged-rs/releases/download/v1.0.2/git-branch-delete-merged_Darwin_arm64",
-        "sha256": "e0af9bbd94a530377c932860289af2d570339fc26fcb3a2b86b38ccd7924660e"
+        "sha256": "33a8aa752099c365520f8c3d4799720a7e6e911d4a826faa5ee4f494c089fc7b"
       }
     },
     "Linux": {
       "x86_64": {
         "url": "https://github.com/nekonenene/git-branch-delete-merged-rs/releases/download/v1.0.2/git-branch-delete-merged_Linux_x86_64",
-        "sha256": "325890012b989393a5974974692fbe59b93f3d615debb5400ce0731015dfc93a"
+        "sha256": "f3882d91be6d38b02b92f3bc5a60243c61a83d9b8a2a46c681d84991053bd80a"
       },
       "arm64": {
         "url": "https://github.com/nekonenene/git-branch-delete-merged-rs/releases/download/v1.0.2/git-branch-delete-merged_Linux_arm64",
-        "sha256": "54bedf6e6b1ac2d43a93706bada5ebd78e61b043f6c94fa274e5ef858d337d51"
+        "sha256": "f7c7cdc1bd3359a54539f02601ebdbfebca1d6bffcae695cbc8a32ecabc08973"
       }
     }
   }
