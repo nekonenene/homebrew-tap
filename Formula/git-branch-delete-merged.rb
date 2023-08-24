@@ -10,6 +10,7 @@ class GitBranchDeleteMerged < Formula
   desc "Delete local branches that have been merged (includes \"Squash and merge\")"
   homepage config.github_url
   license "MIT"
+  version config.version
 
   on_macos do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
