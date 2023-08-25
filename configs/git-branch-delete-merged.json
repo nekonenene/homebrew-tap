@@ -1,28 +1,28 @@
 {
   "inputs": {
     "github_url": "https://github.com/nekonenene/git-branch-delete-merged-rs",
-    "version": "v1.0.3",
+    "version": "v1.0.4",
     "filename_template": "git-branch-delete-merged_{os}_{cpu}"
   },
   "outputs": {
     "Darwin": {
       "x86_64": {
-        "url": "https://github.com/nekonenene/git-branch-delete-merged-rs/releases/download/v1.0.3/git-branch-delete-merged_Darwin_x86_64",
-        "sha256": "bf31f478979cce3a85ba1d62b3298c81197e29f2a9d23308f7f9d640cfe4a2e3"
+        "url": "https://github.com/nekonenene/git-branch-delete-merged-rs/releases/download/v1.0.4/git-branch-delete-merged_Darwin_x86_64",
+        "sha256": "5dd726b01b5cb78d0f256c3ba7ee6d0139691d0d39d84525411911de00138481"
       },
       "arm64": {
-        "url": "https://github.com/nekonenene/git-branch-delete-merged-rs/releases/download/v1.0.3/git-branch-delete-merged_Darwin_arm64",
-        "sha256": "eded0c7157b3b3def27f81f0f77abae0244ae32a788f00968355a85651999a5a"
+        "url": "https://github.com/nekonenene/git-branch-delete-merged-rs/releases/download/v1.0.4/git-branch-delete-merged_Darwin_arm64",
+        "sha256": "55a9f79afd6021a772f0c0c7f99437214872af99637c7258d08b6680cb1909ae"
       }
     },
     "Linux": {
       "x86_64": {
-        "url": "https://github.com/nekonenene/git-branch-delete-merged-rs/releases/download/v1.0.3/git-branch-delete-merged_Linux_x86_64",
-        "sha256": "2ad3ba03adc324a11a6646974defe3cdbf438919c8e4363aec2bcf859412d285"
+        "url": "https://github.com/nekonenene/git-branch-delete-merged-rs/releases/download/v1.0.4/git-branch-delete-merged_Linux_x86_64",
+        "sha256": "949703a992494ad61f91ada5c570f04529e0ead27576d80cdfc95a5fe0f1860a"
       },
       "arm64": {
-        "url": "https://github.com/nekonenene/git-branch-delete-merged-rs/releases/download/v1.0.3/git-branch-delete-merged_Linux_arm64",
-        "sha256": "08d0a606d7207812fe78bf1a3f9d9ea076170538e4321ea64da41a5a07f77480"
+        "url": "https://github.com/nekonenene/git-branch-delete-merged-rs/releases/download/v1.0.4/git-branch-delete-merged_Linux_arm64",
+        "sha256": "9ce266a39009b4e9d3fd5e6c9f381044c4c0b20ed99b666373b148fcfaab5f93"
       }
     }
   }
